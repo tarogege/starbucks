@@ -6721,8 +6721,20 @@ button.close {
     display: none !important;
   }
 }
-.main-list #toggle-btn {
-  float: right;
+.left {
+  margin-left: -16px;
+}
+#toggle-btn {
+  margin-right: 10px;
+}
+.navbar-nav li a,
+.navbar-nav li button {
+  color: black;
+}
+.navbar-nav li a:hover,
+.navbar-nav li button:hover {
+  text-decoration: none;
+  background-color: white;
 }
 .left-list {
   border-bottom: 1px solid #e2e2e2;
@@ -6740,8 +6752,9 @@ button.close {
 }
 .login-btn {
   margin-left: 30px;
+  margin-top: 30px;
 }
-.btn-link {
+.login-btn .btn-link {
   color: green;
   font-size: 16px;
 }
@@ -6753,9 +6766,49 @@ button.close {
   color: green;
   font-size: 16px;
 }
+.regist:hover {
+  text-decoration: none;
+}
 .clear {
   clear: both;
 }
+.left {
+  margin-right: 0;
+}
+.right {
+  margin-left: -30px;
+}
 .shadowbox {
   box-shadow: 2px 2px 2px #a2a2a2;
+}
+.myjumbo {
+  background-color: #eeeeee;
+  width: 1007px;
+  padding: 10px 0;
+}
+.clear {
+  clear: both;
+}
+.index-club {
+  width: 1007px;
+}
+body {
+  overflow-x: hidden;
+}
+.club-left {
+  padding-left: 100px;
+  padding-top: 35px;
+}
+.club-left .club-intro {
+  color: #555555;
+  padding-top: 8px;
+}
+.club-left .club-intro:hover {
+  text-decoration: none;
+}
+.club-left .more {
+  color: gold;
+}
+.club-left .more:hover {
+  text-decoration: none;
 }

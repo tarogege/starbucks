@@ -1,6 +1,16 @@
-.main-list{
-	#toggle-btn{
-		float: right;
+.left{
+	margin-left: -16px;
+}
+#toggle-btn{
+	margin-right: 10px;
+}
+.navbar-nav{
+	li a,li button{
+		color: black;
+		&:hover{
+			text-decoration: none;
+			background-color: white;
+		}
 	}
 }
 .left-list{
@@ -21,19 +31,27 @@
 }
 .login-btn{
 	margin-left: 30px;
-}
-.btn-link{
+	margin-top: 30px;
+	.btn-link{
 	color: green;
 	font-size: 16px;
 }
+}
+
 .regist{
 	background-color: transparent;
 	border-radius: 10px 10px;
 	padding: 3px 7px;
 	border:1px solid green;
 	color: green;
-	font-size: 16px
+	font-size: 16px;
+	&:hover{
+		text-decoration:none;
+	}
 }
 .clear{
 	clear: both;;
+}
+.left{
+	margin-right: 0;
 }

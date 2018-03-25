@@ -15,28 +15,116 @@
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
     </head>
-    <frameset cols="30%,70%" frameborder="0" framespacing="0">
-             <frame src="left_index.html" noresize="noresize">
-             <frame src="right_index.html" name="showframe" >
-    </frameset>
-    <body>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header>
-       
-        </header>
+        <body scroll="no">
+            <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="left col-md-4 col-sm-12">
+                    <nav class="navbar">
+                        <div class="navbar-header">
+                            <a href="" class="navbar-brand">
+                                <img src="">
+                            </a>
+                        </div>
+                        <ul class="nav navbar-nav hidden-xs">
+                            <li><a>门店</a></li>
+                            <li><a>我的账户</a></li>
+                            <li><a>菜单</a></li>
+                        </ul>
 
-        <main>
-         
-        </main>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><button class="btn btn-link navbar-btn hidden-xs" id="toggle-btn">
+                                <span class="icon fa fa-th-list" id="colla-btn"></span>
+                            </button>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="container">
+                <div class="left-detail" id="left-detail">
+                <ul class="left-list">
+                        <li><a href="">门店</a></li>
+                        <li><a href="">星象俱乐部</a></li>
+                        <li><a href="">菜单</a></li>
+                    </ul>
+                    <ul class="left-list">
+                        <li><a href="">星巴克移动应用</a></li>
+                        <li><a href="">星礼卡</a></li>
+                        <li><a href="">星甄选</a></li>
+                        <li><a href="">咖啡星讲堂</a></li>
+                        <li><a href="">上海烘培工坊</a></li>
+                        <li><a href="">关于星巴克</a></li>
+                        <li><a href="">帮助中心</a></li>
+                    </ul>
+                </div>
+                <div class="left-welcome" id="left-welcome">
+                    <h3>心情惬意，来杯咖啡吧</h3>
+                </div>
+            </div>
+            <div class="container">
+                <div class="login-btn">
+                    <button class="btn btn-link"><i class="fa fa-user" aria-hidden="true"></i>登录</button>
+                    <a href="" class="regist">注册</a>
+                </div>
+            </div>
+                </div><!--left-->
+
+                <div class="right col-md-8 col-sm-12">
+                    <img src="../img/title-img.png" width="1007">
+            <div class="myjumbo">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <img src="../img/jumb1.png" width="305px" id="img-1" class="img-responsive">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="../img/jumb2.png" width="305px" id="img-2" class="img-responsive">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="../img/jumb3.png" width="305px" id="img-3" class="img-responsive">
+                    </div>
+                <div class="clear"></div>
+                </div>
+            </div><!--myjumb-->
+
+            <div class="index-club">
+                    <div class="row">
+                    <div class="col-md-6 club-left">
+                        <h4>星享俱乐部</h4>
+                        <p><a href="" class="club-intro">开启您的星享之旅，星星越多，会员等级越高，好礼越丰富。</a></p>
+                        <a href="" class="more">了解更多></a>
+                        <div class="login-btn">
+                            <p>
+                                <a href="" class="regist">注册</a>
+                                 <a href="" class="regist">登录</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 club-right">
+                        <img src="../img/starclub.png" width="340">
+                    </div>
+                    </div>
+            </div><!--club-->
+
+            <div class="myjumbo">
+                <div class="title">
+                    <h4>星巴克精选</h4>
+                </div>
+            </div>
+                </div><!--right-->
+            </div>
+            </div>
         <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="../js/plugins.js"></script>
         <script src="../js/main.js"></script>
+        <script src="../js/leftlist.js"></script>
+         <script src="../js/right.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
